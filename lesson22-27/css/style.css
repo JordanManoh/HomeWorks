@@ -1,0 +1,21 @@
+.block{
+    color: aqua;
+}
+#id{
+    color: blueviolet;
+}
+.first, .second, .third{
+    color: blue;
+}
+[data-example]{
+    color: yellow;
+}
+[data-example="value1"]{
+    color: green;
+}
+div.child{
+    color: red;
+}
+.parent>.child{
+    color: aquamarine;
+}

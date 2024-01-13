@@ -1,0 +1,29 @@
+*{
+    box-sizing: content-box;
+}
+.main{
+    background-color: #e7c5f5;
+    overflow-y: auto;
+    max-height: 600px;
+    border-radius: 25px 0 0 25px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.article{
+    border-radius: 25px;
+    margin: 15px 10px 5px;
+    display: inline-block;
+    width: 300px;
+    height: 230px;
+    background-color: #b19a87;
+    box-shadow: 1px 0px 10px 0px rgba(34, 60, 80, 1) inset;
+}
+p{
+    margin: 35px 25px 0 25px;
+    font-size: 20px;
+
+}
+h3{
+    margin: 35px 25px 0px 25px;
+    font-size: 30px;
+}
