@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    background: #181E34;
+}
+.header{
+    width: 1140px;
+    height: 114px;
+    justify-content: center;
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    margin: 30px 1122px 0 270px;
+}
+.nav{
+
+}
