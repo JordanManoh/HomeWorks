@@ -1,0 +1,54 @@
+body{
+    background: #181E34;
+    font-family: "Montserrat", "Arial", sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/*-----------------HEADER-----------------*/
+
+.container{
+    max-width: 930px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+.header{
+    margin: 30px 0 36px;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    margin-left: auto;
+}
+.header-list{
+    display: flex;
+    gap: 30px;
+}
+.header-button{
+    margin-left: 34px;
+    background-color: white;
+    color: #2766AE;
+    padding: 14px 30px;
+    border-radius: 100px;
+    font-weight: 500;
+}
+
+/*-------------MAIN-------------*/
+
+.section1{
+    background: url(img/Rect.jpg) 10% 50% / cover no-repeat ;
+    height: 508px;
+    padding-top: 120px;
+}
+.section1-title{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 120px;
+}
