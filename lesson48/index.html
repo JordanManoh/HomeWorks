@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Урок48</title>
+    <title>Форма</title>
 </head>
 <body>
-    <form action=""></form>
+    <form action="">
+        <fieldset>
+            <legend>Ваше ФИО</legend>
+            <label for="input1">Имя</label><br>
+            <input type="text"><br>
+            <label for="input2">Фамилия</label><br>
+            <input type="text"><br>
+            <label for="input3">Отчество</label><br>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Ваши контактные данные</legend>
+            <label for="input4">Номер телефона</label><br>
+            +7<input type="number"><br>
+            <label for="input5">Почта</label><br>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Об услугах</legend>
+            <label for="">Выберите услугу</label><br>
+            <select name="" id="">
+                <option value="">-- Не выбрано --</option>
+                <option value="val1">услуга 1</option>
+                <option value="val2">услуга 2</option>
+                <option value="val3">услуга 3</option>
+                <option value="val4">услуга 4</option>
+                <option value="val5">услуга 5</option>
+            </select><br>
+            <label for="">Ваши пожелания или комментарий</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        
+        <button type="submit">Отправить</button><br>
+        <button type="reset">Отчистить</button>
+    </form>
 </body>
 </html>

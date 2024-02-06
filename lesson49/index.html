@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модифицированная форма</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Ваше ФИО и дата рождения</legend>
+            <label for="input1">Имя</label><br>
+            <input type="text" placeholder="Иван" required><br>
+            <label for="input2">Фамилия</label><br>
+            <input type="text" placeholder="Иванов" required><br>
+            <label for="input3">Отчество</label><br>
+            <input type="text" placeholder="Иванович" required><br>
+            <label for="">Дата рождения</label><br>
+            <input type="date" required>
+        </fieldset>
+        <fieldset>
+            <legend>Ваши контактные данные</legend>
+            <label for="input4">Номер телефона</label><br>
+            <input type="tel" required placeholder="+79990000000"><br>
+            <label for="input5">Почта</label><br>
+            <input type="email" required placeholder="jordan.manoh@gmail.com">
+        </fieldset>
+        <fieldset>
+            <legend>О товарах</legend>
+            <label for="">Выберите товар</label><br>
+            <select name="" id="">
+                <option value="">-- Не выбрано --</option>
+                <option value="val1">Товар 1</option>
+                <option value="val2">Товар 2</option>
+                <option value="val3">Товар 3</option>
+                <option value="val4">Товар 4</option>
+                <option value="val5">Товар 5</option>
+            </select><br>
+            <label for="">Количество товаров (шт.)</label><br>
+            <input type="number" min="1" max="10"><br>
+            <label for="">Тип доставки</label><br>
+            <label for="">
+                <input type="radio" name="radio1">
+                Курьером
+            </label><br>
+            <label for="">
+                <input type="radio" name="radio1">
+                Самовывоз
+            </label><br>
+            <label for="">Ваши пожелания или комментарий</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        
+        <button type="submit">Отправить</button><br>
+        <button type="reset">Отчистить</button>
+    </form>
+</body>
+</html>
