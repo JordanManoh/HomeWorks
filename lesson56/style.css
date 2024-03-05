@@ -90,7 +90,7 @@ body {
 .light_circle{
     display: block;
     width: 50%;
-    height: 18%;
+    height: 17%;
     border-radius: 1000000px;
     background-color: #555;
 }
