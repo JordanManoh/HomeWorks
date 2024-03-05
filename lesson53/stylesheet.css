@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Renaldo Modern';
+    src: local('Renaldo Modern'), local('RenaldoModern'),
+        url('/lesson53/fonts/RenaldoModern.woff2') format('woff2'),
+        url('/lesson53/fonts/RenaldoModern.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.text {
+    font-family: 'Renaldo Modern';
+    line-height: 2em;
+    color: rgb(224, 224, 224);
+    text-shadow:
+        1px 1px 3px black,
+        2px 2px 3px black,
+        3px 3px 3px black,
+        4px 4px 3px black;
+}
