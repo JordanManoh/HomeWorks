@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Renaldo Modern';
     src: local('Renaldo Modern'), local('RenaldoModern'),
-        url('/lesson53/fonts/RenaldoModern.woff2') format('woff2'),
-        url('/lesson53/fonts/RenaldoModern.woff') format('woff');
+        url('../fonts/RenaldoModern.woff2') format('woff2'),
+        url('../fonts/RenaldoModern.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
