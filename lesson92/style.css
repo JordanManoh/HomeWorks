@@ -1,0 +1,39 @@
+.btn--open {
+    width: 20vw;
+    height: 5vw;
+    border-radius: 10vw;
+    font-size: 2vw;
+    margin: 1vw auto;
+}
+.modal{
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    background-color: rgba(24, 20, 20, 0.759);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+
+.modal--open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal__inner {
+    background-color: aliceblue;
+    width: 50vw;
+    border-radius: 2vw;
+    margin: 20vh auto;
+
+}
+.modal__text {
+    font-size: 2vw;
+    padding: 1vw;
+}
+.modal__close--btn {
+    font-size: 3vw;
+    background-color: rgba(240, 248, 255, 0);
+    margin-left: 93%;
+}
+/*=========================Script===========================*/
