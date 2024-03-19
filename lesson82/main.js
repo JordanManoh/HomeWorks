@@ -5,14 +5,17 @@ function greetingUser(name){
 }
 console.log(greetingUser(name))
 
-const array = [6, 3, 29, 59, 83, 58, 53, 40, 95, 24, 74, 34, 8, 2, 48, 4, 17, 93, 96, 52]
+const array = [6, 3, 29, 59, 83, 58, 10, 53, 40, 95, 24, 74, 34, 8, 2, 48, 4, 17, 93, 96, 52]
 
-function lengthCondition(array){
-    if(array.length > 10){
-        return array.length
+function searchMoreTen(mass){
+    console.log(`Элементы массива больше 10:`)
+    for(i = 0; i < mass.length; i++){
+        if(mass[i] > 10){
+            console.log(mass[i])
+        }
     }
 }
-console.log("Число элементов массива "+lengthCondition(array))
+searchMoreTen(array)
 
 function calc (numberOne,numberTwo,operand){
     if(operand == '+'){
