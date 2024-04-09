@@ -1,0 +1,237 @@
+
+/*=============================HEADER=================================*/
+.header {
+    background-image: url(../image/decor/Head-fon.png);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top {
+    padding-top: 19px;
+}
+
+.header__top__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.inner__logo {
+    max-width: 174.23px;
+    position: relative;
+    z-index: 12;
+}
+
+.nav__list {
+    display: flex;
+    gap: 4vh 4vw;
+}
+
+.nav__link {
+    position: relative;
+    z-index: 1;
+    display: block;
+    padding: 5px 0 5px;
+}
+
+.nav__link::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -13px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--akcentnyy);
+    z-index: -1;
+
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.nav__link:hover::before {
+    opacity: 1;
+}
+
+
+.nav__open-menu {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.nav__open-menu span,
+.nav__open-menu span::after,
+.nav__open-menu span::before {
+    display: inline-block;
+    width: 30px;
+    height: 5px;
+    background-color: #1f1711;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.nav__open-menu span::after,
+.nav__open-menu span::before {
+    content: '';
+    position: absolute;
+}
+
+.nav__open-menu span::after {
+    top: 5px;
+}
+
+.nav__open-menu span::before {
+    bottom: 5px;
+}
+
+.body--opened-menu .nav__open-menu span::before,
+.body--opened-menu .nav__open-menu span::after {
+    transition: all 0.3s;
+}
+
+.body--opened-menu .nav__open-menu span {
+    background-color: transparent;
+}
+
+.body--opened-menu .nav__open-menu span::before {
+    bottom: 12.5px;
+    transform: rotate(-45deg);
+}
+
+.body--opened-menu .nav__open-menu span::after {
+    top: 12.5px;
+    transform: rotate(45deg);
+}
+
+.header__hero {
+    margin: 48px 0 140px 0;
+}
+
+/* ============================HERO================================= */
+
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__heading {
+    margin-top: 82px;
+    max-width: 519px;
+}
+
+.heading__lettering {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    color: #b197b2;
+}
+
+.lettering {
+    text-transform: uppercase;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+}
+
+.lettering::after {
+    display: inline-block;
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #b197b2;
+    margin: 0 10px;
+}
+
+.lettering:last-child::after {
+    content: none;
+}
+
+.heading__intro {
+    font-family: var(--second-family);
+    font-size: 74px;
+    line-height: 82%;
+    color: var(--zagolovochnyy);
+    margin-bottom: 30px;
+}
+
+.heading__description {
+    max-width: 358px;
+    font-family: var(--font-family);
+    color: var(--nabornyy);
+    margin-bottom: 40px;
+}
+
+.heading__button {
+    max-width: 358px;
+}
+
+.hero__perfomance {
+    margin-right: 19.275%;
+}
+
+.hero__perfomance--img {
+    position: relative;
+    max-width: 377px;
+}
+
+.hero__perfomance--img>img {
+    width: 100%;
+}
+
+
+
+.perfomance__button__position {
+    position: absolute;
+    bottom: 11.235%;
+    left: calc(100% - 38px);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfomance__button__position p {
+    flex-shrink: 0;
+    max-width: 112px;
+    align-items: center;
+}
+
+.perfomance__button {
+    flex-shrink: 0;
+    background-color: var(--fonovyy);
+    display: block;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 4px 20px 0 rgba(184, 148, 126, 0.3);
+}
+
+.perfomance__button img {
+    position: absolute;
+    top: 32.055%;
+    left: 38.47%;
+}
+
+.perfomance__button::before {
+    position: absolute;
+    content: '';
+    display: block;
+    inset: 5px;
+    border-radius: 50%;
+    border: 1px solid var(--akcentnyy);
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.perfomance__button:hover::before {
+    opacity: 1;
+}
+
+.perfomance__button__position-adaptive {
+    display: none;
+}
