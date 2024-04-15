@@ -1,0 +1,97 @@
+.gallery__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+.gallery__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 15px;
+}
+.gallery__img {
+    justify-self: center;
+    align-self: center;
+}
+.gallery__img img {
+    max-width: 100%;
+}
+.gallery__text {
+    max-width: 380px;
+    display: grid;
+    gap: 20px;
+}
+.gallery__nav {
+    display: flex;
+    gap: 98px;
+    position: relative;
+}
+.gallery__pagination {
+    font-family: var(--second-family);
+    font-size: 42px;
+    line-height: .9;
+    text-align: center;
+    color: var(--nabornyy);
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: auto;
+    width: auto;
+}
+.gallery__prev,
+.gallery__next {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--akcentnyy);
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
+.gallery__prev:hover,
+.gallery__next:hover {
+    background-color: var(--akcentnyy);
+}
+.gallery__prev path,
+.gallery__next path {
+    fill: var(--akcentnyy);
+    transition: var(--transition);
+}
+.gallery__prev:hover path,
+.gallery__next:hover path {
+    fill: var(--fonovyy-svetlyy);
+}
+.gallery__prev.swiper-button-disabled path,
+.gallery__next.swiper-button-disabled path {
+    fill: var(--disabled);
+}
+.gallery__prev.swiper-button-disabled,
+.gallery__next.swiper-button-disabled {
+    cursor: auto;
+    border-color: var(--disabled);
+}
+.gallery__prev.swiper-button-disabled:hover path,
+.gallery__next.swiper-button-disabled:hover path {
+    fill: var(--disabled);
+}
+.gallery__prev.swiper-button-disabled:hover,
+.gallery__next.swiper-button-disabled:hover {
+    background-color: transparent;
+    border-color: var(--disabled);
+}
+
+.gallery__slider {
+    margin-top: 40px;
+}
+.gallery__slide {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+.gallery__slide img {
+    width: 100%;
+}

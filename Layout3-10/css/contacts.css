@@ -1,0 +1,90 @@
+.contacts {
+    background-image: url(../image/decor/Contacts-fon.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contacts__inner {
+    display: flex;
+    align-items: flex-end;
+    gap: 84px;
+    position: relative;
+}
+.contacts__inner::before {
+    content: url("../image/decor/blackberry.png");
+    position: absolute;
+    top: -4%;
+    left: 0;
+}
+.contacts__inner::after {
+    content: url("../image/decor/blackberry2.png");
+    position: absolute;
+    top: 4%;
+    right: 0;
+}
+.contacts__img {
+    filter: drop-shadow(0 4px 30px #c6b0a14d);
+}
+.contacts__img img {
+    width: 100%;
+}
+.contacts__content {
+    max-width: 420px;
+}
+.contacts__title {
+    line-height: .82;
+}
+.contacts__text {
+    margin-top: 20px;
+}
+.contacts__form {
+    margin-top: 40px;
+}
+.contacts__field {
+    margin-bottom: 10px;
+}
+.user-agreement {
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: start;
+    max-width: 288px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.user-agreement__checkbox {
+    cursor: pointer;
+    flex-shrink: 0;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1.50px solid var(--inputy);
+    border-radius: 4px;
+    transition: var(--transition);
+    position: relative;
+}
+.user-agreement__checkbox:hover {
+    border-color: var(--akcentnyy);
+}
+.user-agreement__checkbox::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(../image/icons/check.svg) 50% 50% no-repeat;
+    opacity: 0;
+    transition: var(--transition);
+}
+.user-agreement__checkbox:checked::before {
+    opacity: 1;
+}
+.user-agreement__checkbox:checked {
+    background: var(--akcentnyy);
+    border-color: var(--akcentnyy);
+}
+.user-agreement a {
+    text-decoration: underline;
+    transition: var(--transition);
+}
+.user-agreement a:hover {
+    color: var(--akcentnyy);
+}
