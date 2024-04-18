@@ -1,0 +1,100 @@
+@import url("header.css");
+
+:root {
+    --dark-grey: #313131;
+    --light-grey: #7a7a7a;
+    --blue: #52bfff;
+    --red: #fe0002;
+    --dark-white: #d9d9d9;
+    --transition: all .4s;
+
+    --font-family: "Gotham Pro", sans-serif;
+}
+
+.body {
+    font-family: var(--font-family);
+    line-height: 1.44;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.main {
+    flex-grow: 1;
+    height: 1000px;
+}
+.button {
+    width: 100%;
+    max-width: 243px;
+    max-height: 51px;
+    padding: 1.5px;
+    background: linear-gradient(180deg, #bee7ff 0%, #52bfff 100%);
+    box-shadow: 0 0 25px 0 rgba(82, 191, 255, 0.15);
+    border-radius: 25px;
+}
+.button__content {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    border-radius: 25px;
+    max-width: 240px;
+    background: linear-gradient(214deg, #b1e2ff 0%, #68c7ff 100%);
+    color: white;
+    padding: 5px;
+}
+.button__circle {
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 38px;
+    height: 38px;
+    background: linear-gradient(45deg, #b1e2ff 8.22%, #68c7ff 100%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button p {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    z-index: 1;
+}
+.button img {
+    position: absolute;
+}
+
+.info {
+    display: flex;
+    color: var(--dark-grey);
+    font-weight: 700;
+    font-size: 15px;
+}
+.info__town,
+.info__work-time {
+    display: flex;
+    gap: 10px;
+}
+.info__town span {
+    color: var(--light-grey);
+    font-weight: 500;
+}
+/* ============================SCRIPT============================= */
+.top__lang-item--active {
+    font-weight: 700;
+    color: var(--blue);
+}
