@@ -1,0 +1,116 @@
+.footer {
+    margin-top: 20px;
+    min-height: 230px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding: 12px 0;
+    z-index: 1;
+}
+.footer__inner {
+    width: 100%;
+    min-height: 230px;
+    display: grid;
+    grid-template-columns: 140px 1fr 110px;
+    grid-template-rows: 66px 54px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    padding: 17px 0;
+    z-index: 2;
+    gap: 0px 5px;
+}
+.footer__logos {
+    display: flex;
+}
+.logos__callan {
+    order: 1;
+    border-bottom: 1px solid #e2edf380;
+    padding-bottom: 9.2px;
+}
+.logos__wide {
+    order: 5;
+}
+.logos-fix {
+    position: relative;
+}
+.logos-fix::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 45px;
+    background-color: white;
+    z-index: 0;
+    right: 0;
+}
+.logos-fix::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    background-color: #ffffff;
+    z-index: 0;
+    left: 0;
+    top: 0;
+}
+.dop-logos-fix {
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    background-color: #ffffff;
+    z-index: 0;
+    left: 26px;
+    top: 0;
+}
+.wide__text {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+.footer__navigation.navigation {
+    max-width: 900px;
+    order: 3;
+    border-bottom: 1px solid #e2edf380;
+}
+.footer-navigation__list.navigation__list {
+    justify-content: end;
+    align-items: center;
+    margin-right: 10px;
+    height: 66px;
+}
+.footer__socials.socials {
+    height: 66px;
+    gap: 10px;
+    align-items: center;
+    order: 4;
+    border-bottom: 1px solid #e2edf380;
+}
+.footer__info.info {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 35px;
+    order: 5;
+    grid-column: 2/4;
+}
+.info__tel__inner {
+    display: flex;
+    gap: 8px;
+}
+
+.info__tel svg {
+    transition: var(--transition);
+}
+.info__tel:hover svg {
+    transform: scale(0.9);
+}
+.info__tel:hover path {
+    fill: #81d0ff;
+}
+.footer__border-img.border-img {
+    border-image: url(../image/decor/border/border-footer.svg);
+    border-image-slice: 24;
+    border-image-width: 24px 0;
+    left: 0;
+    right: 0;
+}

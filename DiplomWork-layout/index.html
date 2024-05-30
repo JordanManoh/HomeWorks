@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callan Education</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="top__inner">
+                        <div class="top__content">
+                            <a class="top__logo" href="index.html">
+                                <img class="top__logo-img" src="image/icons/logo.svg" alt="Логотип Callan Education">
+                                <img class="top__logo-img-adaptive" src="image/icons/logo-mobile.svg"
+                                    alt="Логотип Callan Education">
+                            </a>
+                            <address class="top__socials socials">
+                                <a class="socials__link top__socials__link" href="#">
+                                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.3085 0.686432H4.69128C2.10451 0.686432 0 2.79104 0 5.37782V12.995C0 15.5819 2.10451 17.6864 4.69128 17.6864H12.3085C14.8955 17.6864 17 15.5818 17 12.995V5.37782C17.0001 2.79104 14.8955 0.686432 12.3085 0.686432ZM8.49998 4.80597C6.08455 4.80597 4.11951 6.77101 4.11951 9.18644C4.11951 11.6018 6.08455 13.5667 8.49998 13.5667C10.9154 13.5667 12.8804 11.6018 12.8804 9.18644C12.8804 6.77101 10.9154 4.80597 8.49998 4.80597ZM8.49998 12.0583C6.91634 12.0583 5.62783 10.77 5.62783 9.18634C5.62783 7.6026 6.91624 6.31419 8.49998 6.31419C10.0837 6.31419 11.3721 7.6026 11.3721 9.18634C11.3721 10.77 10.0836 12.0583 8.49998 12.0583ZM12.2829 3.8508C12.4882 3.64466 12.7736 3.52701 13.0642 3.52701C13.3558 3.52701 13.6414 3.64466 13.8465 3.8508C14.0527 4.05593 14.1703 4.34151 14.1703 4.63311C14.1703 4.92372 14.0527 5.20929 13.8465 5.41543C13.6404 5.62056 13.3558 5.73922 13.0642 5.73922C12.7736 5.73922 12.4881 5.62056 12.2829 5.41543C12.0768 5.20929 11.9581 4.92382 11.9581 4.63311C11.9581 4.34151 12.0767 4.05593 12.2829 3.8508Z"
+                                            fill="#52BFFF" />
+                                    </svg>
+                                </a>
+                                <a class="socials__link top__socials__link" href="#">
+                                    <svg width="10" height="17" viewBox="0 0 10 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.87437 3.61214C6.89801 3.58541 7.00854 3.4981 7.44262 3.4981L8.75898 3.49757C9.22197 3.49757 9.59847 3.12027 9.59847 2.65645V0.844563C9.59847 0.381535 9.2225 0.00423342 8.7603 0.00343964L7.4081 0C6.10336 0 5.32169 0.0911452 4.52802 0.907C3.73791 1.71915 3.32021 2.85291 3.32021 4.1855V5.86947H1.70303C1.24003 5.86947 0.863403 6.24678 0.863403 6.7106V8.71431C0.863403 9.17813 1.24003 9.55543 1.70303 9.55543H3.32021V16.1589C3.32021 16.6227 3.69684 17 4.15984 17H5.94931C6.4123 17 6.78893 16.6227 6.78893 16.1589V9.55556H8.76571C9.22871 9.55556 9.6052 9.17813 9.6052 8.71457L9.60626 6.71073C9.60626 6.40606 9.44079 6.12414 9.1743 5.97505C9.05082 5.90599 8.90714 5.86947 8.75898 5.86947H6.78893V4.12769C6.78893 3.78161 6.83542 3.65632 6.87437 3.61214Z"
+                                            fill="#52BFFF" />
+                                    </svg>
+                                </a>
+                                <a class="socials__link top__socials__link" href="#">
+                                    <svg width="24" height="17" viewBox="0 0 24 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M23.5058 14.3601C23.9999 12.4601 23.9999 8.51986 23.9999 8.51986C23.9999 8.51986 24.0198 4.56009 23.5058 2.6601C23.2289 1.62013 22.4184 0.79984 21.3904 0.519985C19.5124 0 12.0001 0 12.0001 0C12.0001 0 4.48784 0 2.60977 0.500122C1.60144 0.779977 0.770976 1.62013 0.494351 2.6601C0 4.56009 0 8.5 0 8.5C0 8.5 0 12.4601 0.494351 14.3399C0.771269 15.3799 1.58181 16.2002 2.60977 16.48C4.50747 17 12.0001 17 12.0001 17C12.0001 17 19.5124 17 21.3904 16.4999C22.4184 16.22 23.2289 15.4 23.5058 14.3601ZM15.855 8.5L9.60805 12.1399V4.86011L15.855 8.5Z"
+                                            fill="#52BFFF" />
+                                    </svg>
+                                </a>
+                            </address>
+                            <a class="top__burger burger" href="">
+                                <img class="burger-icon-top" src="image/icons/burger/burger-bot.svg" alt="Бургер линия">
+                                <img class="burger-icon-cntr" src="image/icons/burger/burger-bot.svg"
+                                    alt="Бургер линия">
+                                <img class="burger-icon-bot" src="image/icons/burger/burger-bot.svg" alt="Бургер линия">
+                            </a>
+                        </div>
+                        <div class="top__adaptive-content">
+                            <nav class="top__navigation navigation">
+                                <ul class="top__navigation__list navigation__list">
+                                    <li class="top__navigation__item navigation__item">
+                                        <a class="top__navigation__link navigation__link" href="#about"
+                                            data-translate="О нас">
+                                            О нас
+                                        </a>
+                                    </li>
+                                    <li class="top__navigation__item navigation__item">
+                                        <a class="top__navigation__link navigation__link" href="#universities"
+                                            data-translate="Университеты">
+                                            Университеты
+                                        </a>
+                                    </li>
+                                    <li class="top__navigation__item navigation__item">
+                                        <a class="top__navigation__link navigation__link" href="#testimonials"
+                                            data-translate="Отзывы">
+                                            Отзывы
+                                        </a>
+                                    </li>
+                                    <li class="top__navigation__item navigation__item">
+                                        <a class="top__navigation__link navigation__link" href="#photos"
+                                            data-translate="Фотографии">
+                                            Фотографии
+                                        </a>
+                                    </li>
+                                    <li class="top__navigation__item navigation__item">
+                                        <a class="top__navigation__link navigation__link" href="#anwsers"
+                                            data-translate="Ответы на вопросы">
+                                            Ответы на вопросы
+                                        </a>
+                                    </li>
+                                    <li class="top__navigation__item navigation__item">
+                                        <a class="top__navigation__link navigation__link" href="#info"
+                                            data-translate="Контакты">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <ul class="top__lang-list">
+                                <li>
+                                    <a class="top__lang-item top__lang-item--active" href="#" data-lang="ru">рус</a>
+                                </li>
+                                <li>
+                                    <a class="top__lang-item" href="#" data-lang="en">en</a>
+                                </li>
+                            </ul>
+                            <a class="top__request" href="#form">
+                                <div>
+                                    <img src="image/icons/message.svg" alt="Иконка сообщение">
+                                </div>
+                                <p data-translate="Оставить заявку">Оставить заявку</p>
+                            </a>
+                            <div class="top__info info">
+                                <div class="info__work-time">
+                                    <img class="top__info-img-clock" src="image/icons/clock.svg" alt="Часы">
+                                    <p>Пн-Пт 9:00 - 18:00</p>
+                                </div>
+                                <div class="info__town">
+                                    <img class="top__info-img-point" src="image/icons/point.svg" alt="Точка на карте">
+                                    <p>г. Город <span>ул. Улица, 24 (Офис 24)</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="header__hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <h1 class="hero__title">Грант и контрактное обучение в <span>зарубежных</span> вузах</h1>
+                        <span class="hero__text" lang="en">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi
+                            ut
+                            aliquip
+                            <img src="image/decor/arr.svg" alt="Стрелка">
+                        </span>
+                        <div class="hero__button button">
+                            <a class="button__content modal__opened" href="#">
+                                <div class="button__circle">
+                                    <img src="image/icons/tel.svg" alt="Иконка телефон">
+                                </div>
+                                <div class="button__circle-back"></div>
+                                <span class="button-p">Связаться с нами</span>
+                            </a>
+                        </div>
+                        <div class="hero__info info">
+                            <div class="info__town">
+                                <img src="image/icons/point.svg" alt="Точка на карте">
+                                <p>г. Город
+                                    <span>
+                                        ул. Улица, 24 (Офис 24)
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="info__work-time">
+                                <img src="image/icons/clock.svg" alt="Часы">
+                                <p>Пн-Пт 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="header__slider swiper">
+                <div class="header__slider-wrapper swiper-wrapper">
+                    <div class="header__slide swiper-slide">
+                        <img class="header__slide-bg" src="image/decor/header-bg/bg.jpg" alt="Фон">
+                        <img class="header__slide-top-clouds" src="image/decor/clouds.png" alt="Верхние облака">
+                        <img class="header__slide-tower" src="image/decor/header-bg/big-ben.png" alt="Башня Биг-бен">
+                        <img class="header__slide-box" src="image/decor/header-bg/telephone-box.png"
+                            alt="Телефонная будка">
+                        <img class="header__slide-flag" src="image/decor/header-bg/flag-bg.png" alt="Английский флаг">
+                        <img class="header__slide-clouds" src="image/decor/clouds.png" alt="Облака">
+                    </div>
+                    <div class="header__slide swiper-slide">
+                        <img class="header__slide-bg" src="image/decor/header-bg/bg.jpg" alt="Фон">
+                        <img class="header__slide-top-clouds" src="image/decor/clouds.png" alt="Верхние облака">
+                        <img class="header__slide-tower" src="image/decor/header-bg/big-ben.png" alt="Башня Биг-бен">
+                        <img class="header__slide-box" src="image/decor/header-bg/telephone-box.png"
+                            alt="Телефонная будка">
+                        <img class="header__slide-flag" src="image/decor/header-bg/flag-bg.png" alt="Английский флаг">
+                        <img class="header__slide-clouds" src="image/decor/clouds.png" alt="Облака">
+                    </div>
+                    <div class="header__slide swiper-slide">
+                        <img class="header__slide-bg" src="image/decor/header-bg/bg.jpg" alt="Фон">
+                        <img class="header__slide-top-clouds" src="image/decor/clouds.png" alt="Верхние облака">
+                        <img class="header__slide-tower" src="image/decor/header-bg/big-ben.png" alt="Башня Биг-бен">
+                        <img class="header__slide-box" src="image/decor/header-bg/telephone-box.png"
+                            alt="Телефонная будка">
+                        <img class="header__slide-flag" src="image/decor/header-bg/flag-bg.png" alt="Английский флаг">
+                        <img class="header__slide-clouds" src="image/decor/clouds.png" alt="Облака">
+                    </div>
+                    <div class="header__slide swiper-slide">
+                        <img class="header__slide-bg" src="image/decor/header-bg/bg.jpg" alt="Фон">
+                        <img class="header__slide-top-clouds" src="image/decor/clouds.png" alt="Верхние облака">
+                        <img class="header__slide-tower" src="image/decor/header-bg/big-ben.png" alt="Башня Биг-бен">
+                        <img class="header__slide-box" src="image/decor/header-bg/telephone-box.png"
+                            alt="Телефонная будка">
+                        <img class="header__slide-flag" src="image/decor/header-bg/flag-bg.png" alt="Английский флаг">
+                        <img class="header__slide-clouds" src="image/decor/clouds.png" alt="Облака">
+                    </div>
+                    <div class="header__slide swiper-slide">
+                        <img class="header__slide-bg" src="image/decor/header-bg/bg.jpg" alt="Фон">
+                        <img class="header__slide-top-clouds" src="image/decor/clouds.png" alt="Верхние облака">
+                        <img class="header__slide-tower" src="image/decor/header-bg/big-ben.png" alt="Башня Биг-бен">
+                        <img class="header__slide-box" src="image/decor/header-bg/telephone-box.png"
+                            alt="Телефонная будка">
+                        <img class="header__slide-flag" src="image/decor/header-bg/flag-bg.png" alt="Английский флаг">
+                        <img class="header__slide-clouds" src="image/decor/clouds.png" alt="Облака">
+                    </div>
+                </div>
+                <div class="header__pagination swiper-pagination"></div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main--bg-1">
+                <section class="main__about about" id="about">
+                    <div class="container">
+                        <p class="about__desk"><span>Добро пожаловать</span> в нашу группу иностранного образования</p>
+                        <h2 class="about__title title">Почему мы?</h2>
+                        <ul class="about__cards">
+                            <li class="about__cards-item">
+                                <img class="about__cards-img--bag" src="image/about/bags.png" alt="Чемоданы">
+                                <p><span>Сертифицированные услуги</span> нашей профессиональной команды</p>
+                                <div class="border-img"></div>
+                            </li>
+                            <li class="about__cards-item">
+                                <img class="about__cards-img--doc" src="image/about/documents.png" alt="Документы">
+                                <p><span>Высокие</span> визовые ставки (98% наших студентов получили визу)</p>
+                                <div class="border-img"></div>
+                            </li>
+                            <li class="about__cards-item">
+                                <img class="about__cards-img--book" src="image/about/books.png" alt="Книги и академка">
+                                <p>Учеба в <span>престижных</span> университетах, которые входят в Топ-1000</p>
+                                <div class="border-img"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="about__tree" src="image/decor/tree.png" alt="Дерево">
+                </section>
+                <section class="main__universities universities" id="universities">
+                    <div class="container">
+                        <h2 class="universities__title title">Университеты</h2>
+                        <p class="universities__text">
+                            В нашем каталоге вы найдете более <span>100 университетов</span> из более чем <span>14
+                                стран</span>
+                        </p>
+                        <a class="universities__link" href="#">
+                            Смотреть все
+                            <svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 2L7 7L2 12" stroke="url(#paint0_linear_3_50779)" stroke-width="3"
+                                    stroke-linecap="round" />
+                                <defs>
+                                    <linearGradient x1="8.38158" y1="-7.47368" x2="-11.0958" y2="7.03216"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop offset="1" stop-color="#B1E2FF" />
+                                        <stop offset="1" stop-color="#68C7FF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div class="universities__slider swiper">
+                            <div class="universities__wrapper swiper-wrapper">
+                                <div class="universities__slide swiper-slide">
+                                    <img src="image/un-slide.jpg" alt="Красная площадь">
+                                    <div class="universities__slide-text">
+                                        <span>Россия</span>
+                                        <p>15 вузов</p>
+                                    </div>
+                                </div>
+                                <div class="universities__slide swiper-slide">
+                                    <img src="image/un-slide.jpg" alt="Красная площадь">
+                                    <div class="universities__slide-text">
+                                        <span>Россия</span>
+                                        <p>15 вузов</p>
+                                    </div>
+                                </div>
+                                <div class="universities__slide swiper-slide">
+                                    <img src="image/un-slide.jpg" alt="Красная площадь">
+                                    <div class="universities__slide-text">
+                                        <span>Россия</span>
+                                        <p>15 вузов</p>
+                                    </div>
+                                </div>
+                                <div class="universities__slide swiper-slide">
+                                    <img src="image/un-slide.jpg" alt="Красная площадь">
+                                    <div class="universities__slide-text">
+                                        <span>Россия</span>
+                                        <p>15 вузов</p>
+                                    </div>
+                                </div>
+                                <div class="universities__slide swiper-slide">
+                                    <img src="image/un-slide.jpg" alt="Красная площадь">
+                                    <div class="universities__slide-text">
+                                        <span>Россия</span>
+                                        <p>15 вузов</p>
+                                    </div>
+                                </div>
+                                <div class="universities__slide swiper-slide">
+                                    <img src="image/un-slide.jpg" alt="Красная площадь">
+                                    <div class="universities__slide-text">
+                                        <span>Россия</span>
+                                        <p>15 вузов</p>
+                                    </div>
+                                </div>
+                                <div class="universities__slide swiper-slide">
+                                    <img src="image/un-slide.jpg" alt="Красная площадь">
+                                    <div class="universities__slide-text">
+                                        <span>Россия</span>
+                                        <p>15 вузов</p>
+                                    </div>
+                                </div>
+                                <div class="universities__slide swiper-slide">
+                                    <img src="image/un-slide.jpg" alt="Красная площадь">
+                                    <div class="universities__slide-text">
+                                        <span>Россия</span>
+                                        <p>15 вузов</p>
+                                    </div>
+                                </div>
+                                <div class="universities__slide swiper-slide">
+                                    <img src="image/un-slide.jpg" alt="Красная площадь">
+                                    <div class="universities__slide-text">
+                                        <span>Россия</span>
+                                        <p>15 вузов</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="universities__pagination swiper-pagination"></div>
+                            <div class="universities__nav">
+                                <div class="universities__nav-prev circle__button">
+                                    <div class="circle--focus">
+                                        <div class="circle--1"></div>
+                                        <div class="circle--2 circle--2-prev">
+                                            <svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 2L7 7L2 12" stroke="white" stroke-width="3"
+                                                    stroke-linecap="round" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="universities__nav-next circle__button">
+                                    <div class="circle--focus">
+                                        <div class="circle--1"></div>
+                                        <div class="circle--2 circle--2-next">
+                                            <svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 2L7 7L2 12" stroke="white" stroke-width="3"
+                                                    stroke-linecap="round" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__testimonials testimonials" id="testimonials">
+                    <div class="container">
+                        <h2 class="testimonials__title title">Отзывы наших студентов</h2>
+                        <div class="testimonials__nav">
+                            <div class="testimonials__nav-prev circle__button">
+                                <div class="circle--focus">
+                                    <div class="circle--1"></div>
+                                    <div class="circle--2 circle--2-prev">
+                                        <svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 2L7 7L2 12" stroke="white" stroke-width="3"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials__nav-next circle__button">
+                                <div class="circle--focus">
+                                    <div class="circle--1"></div>
+                                    <div class="circle--2 circle--2-next">
+                                        <svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2 2L7 7L2 12" stroke="white" stroke-width="3"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials__slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__blockquote">
+                                        <div class="testimonials__slide-circle">
+                                            <img class="testimonials__slide-img" src="image/man.png" alt="Человек">
+                                        </div>
+                                        <div class="border-img border-img-large"></div>
+                                        <h3>Алекс Иванов</h3>
+                                        <p lang="en">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__blockquote">
+                                        <div class="testimonials__slide-circle testimonials__slide-circle--red">
+                                            <img class="testimonials__slide-img" src="image/man.png" alt="Человек">
+                                        </div>
+                                        <h3>Алекс Иванов</h3>
+                                        <p lang="en">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                        </p>
+                                        <div class="border-img border-img-large"></div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__blockquote">
+                                        <div class="testimonials__slide-circle">
+                                            <img class="testimonials__slide-img" src="image/man.png" alt="Человек">
+                                        </div>
+                                        <h3>Алекс Иванов</h3>
+                                        <p lang="en">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                        </p>
+                                        <div class="border-img border-img-large"></div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__blockquote">
+                                        <div class="testimonials__slide-circle testimonials__slide-circle--red">
+                                            <img class="testimonials__slide-img" src="image/man.png" alt="Человек">
+                                        </div>
+                                        <h3>Алекс Иванов</h3>
+                                        <p lang="en">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                        </p>
+                                        <div class="border-img border-img-large"></div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__blockquote">
+                                        <div class="testimonials__slide-circle">
+                                            <img class="testimonials__slide-img" src="image/man.png" alt="Человек">
+                                        </div>
+                                        <h3>Алекс Иванов</h3>
+                                        <p lang="en">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                        </p>
+                                        <div class="border-img border-img-large"></div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__blockquote">
+                                        <div class="testimonials__slide-circle testimonials__slide-circle--red">
+                                            <img class="testimonials__slide-img" src="image/man.png" alt="Человек">
+                                        </div>
+                                        <h3>Алекс Иванов</h3>
+                                        <p lang="en">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                        </p>
+                                        <div class="border-img border-img-large"></div>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <div class="testimonials__blockquote">
+                                        <div class="testimonials__slide-circle">
+                                            <img class="testimonials__slide-img" src="image/man.png" alt="Человек">
+                                        </div>
+                                        <h3>Алекс Иванов</h3>
+                                        <p lang="en">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                        </p>
+                                        <div class="border-img border-img-large"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="testimonials__pagination swiper-pagination"></div>
+                        </div>
+                        <img class="testimonials__tree" src="image/decor/tree2.png" alt="Дерево">
+                        <img class="testimonials__clouds" src="image/decor/clouds.png" alt="Облака">
+                    </div>
+                </section>
+            </div>
+            <div class="main--bg-2">
+                <section class="main__photos photos" id="photos">
+                    <div class="container">
+                        <h2 class="photos__title title">Фотографии наших учеников</h2>
+                        <a class="photos__link" href="#">
+                            Истории студентов
+                            <svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 2L7 7L2 12" stroke="url(#paint0_linear_3_50779)" stroke-width="3"
+                                    stroke-linecap="round" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_3_50779" x1="8.38158" y1="-7.47368" x2="-11.0958"
+                                        y2="7.03216" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0" stop-color="#B1E2FF" />
+                                        <stop offset="1" stop-color="#68C7FF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                        <div class="photos__slider swiper">
+                            <div class="photos__wrapper swiper-wrapper">
+                                <div class="photos__slide swiper-slide">
+                                    <img src="image/student.jpg" alt="Фотография ученика">
+                                </div>
+                                <div class="photos__slide swiper-slide">
+                                    <img src="image/student.jpg" alt="Фотография ученика">
+                                </div>
+                                <div class="photos__slide swiper-slide">
+                                    <img src="image/student.jpg" alt="Фотография ученика">
+                                </div>
+                                <div class="photos__slide swiper-slide">
+                                    <img src="image/student.jpg" alt="Фотография ученика">
+                                </div>
+                                <div class="photos__slide swiper-slide">
+                                    <img src="image/student.jpg" alt="Фотография ученика">
+                                </div>
+                                <div class="photos__slide swiper-slide">
+                                    <img src="image/student.jpg" alt="Фотография ученика">
+                                </div>
+                                <div class="photos__slide swiper-slide">
+                                    <img src="image/student.jpg" alt="Фотография ученика">
+                                </div>
+                                <div class="photos__slide swiper-slide">
+                                    <img src="image/student.jpg" alt="Фотография ученика">
+                                </div>
+                                <a class="photos__slide swiper-slide photos__slide--adaptive" href="#">
+                                    <p>Истории студентов</p>
+                                    <svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 2L7 7L2 12" stroke="url(#paint0_linear_3_50779)" stroke-width="3"
+                                            stroke-linecap="round" />
+                                        <defs>
+                                            <linearGradient x1="8.38158" y1="-7.47368" x2="-11.0958" y2="7.03216"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop offset="1" stop-color="#B1E2FF" />
+                                                <stop offset="1" stop-color="#68C7FF" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="photos__pagination swiper-pagination"></div>
+                            <div class="photos__nav">
+                                <div class="photos__nav-prev circle__button">
+                                    <div class="circle--focus">
+                                        <div class="circle--1"></div>
+                                        <div class="circle--2 circle--2-prev">
+                                            <svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 2L7 7L2 12" stroke="white" stroke-width="3"
+                                                    stroke-linecap="round" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photos__nav-next circle__button">
+                                    <div class="circle--focus">
+                                        <div class="circle--1"></div>
+                                        <div class="circle--2 circle--2-next">
+                                            <svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 2L7 7L2 12" stroke="white" stroke-width="3"
+                                                    stroke-linecap="round" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="anwsers main__anwsers" id="anwsers">
+                    <div class="container">
+                        <img class="anwsers__cubs" src="image/decor/cubs.png" alt="Кубики">
+                        <h2 class="anwsers__title title">Вопросы и ответы</h2>
+                        <div class="anwsers__accordeon">
+                            <div class="accordeon__inner">
+                                <a class="accordeon__button" href="#" lang="en">
+                                    <p class="accordeon__question">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit,
+                                        sed do eiusmod?</p>
+                                    <div class="accordeon__circle__button circle__button">
+                                        <div class="circle--focus">
+                                            <div class="circle--1"></div>
+                                            <div class="circle--2 circle--2-next accordeon__button__icon">
+                                                <svg class="accordeon__minus" width="14" height="4" viewBox="0 0 14 4"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2 2H12" stroke="white" stroke-width="3"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 2V12M2 7H12" stroke="white" stroke-width="3"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordeon__content">
+                                        <p class="accordeon__anwser">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                    </div>
+                                    <div class="border-img"></div>
+                                </a>
+                                <a class="accordeon__button" href="#" lang="en">
+                                    <p class="accordeon__question">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit,
+                                        sed do eiusmod?</p>
+                                    <div class="accordeon__circle__button circle__button">
+                                        <div class="circle--focus">
+                                            <div class="circle--1"></div>
+                                            <div class="circle--2 circle--2-next accordeon__button__icon">
+                                                <svg class="accordeon__minus" width="14" height="4" viewBox="0 0 14 4"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2 2H12" stroke="white" stroke-width="3"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 2V12M2 7H12" stroke="white" stroke-width="3"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordeon__content">
+                                        <p class="accordeon__anwser">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation.
+                                        </p>
+                                    </div>
+                                    <div class="border-img"></div>
+                                </a>
+                            </div>
+                            <div class="accordeon__inner">
+                                <a class="accordeon__button" href="#" lang="en">
+                                    <p class="accordeon__question">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit,
+                                        sed do eiusmod?</p>
+                                    <div class="accordeon__circle__button circle__button">
+                                        <div class="circle--focus">
+                                            <div class="circle--1"></div>
+                                            <div class="circle--2 circle--2-next accordeon__button__icon">
+                                                <svg class="accordeon__minus" width="14" height="4" viewBox="0 0 14 4"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2 2H12" stroke="white" stroke-width="3"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 2V12M2 7H12" stroke="white" stroke-width="3"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordeon__content">
+                                        <p class="accordeon__anwser">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                    </div>
+                                    <div class="border-img"></div>
+                                </a>
+                                <a class="accordeon__button" href="#" lang="en">
+                                    <p class="accordeon__question">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit,
+                                        sed do eiusmod?</p>
+                                    <div class="accordeon__circle__button circle__button">
+                                        <div class="circle--focus">
+                                            <div class="circle--1"></div>
+                                            <div class="circle--2 circle--2-next accordeon__button__icon">
+                                                <svg class="accordeon__minus" width="14" height="4" viewBox="0 0 14 4"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2 2H12" stroke="white" stroke-width="3"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 2V12M2 7H12" stroke="white" stroke-width="3"
+                                                        stroke-linecap="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordeon__content">
+                                        <p class="accordeon__anwser">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit!
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud exercitation.
+                                        </p>
+                                    </div>
+                                    <div class="border-img"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <img class="main--bg-2__clouds" src="image/decor/clouds.png" alt="Облака">
+            </div>
+            <section class="main__contacts contacts" id="form">
+                <div class="contacts__teacher">
+                    <img class="teacher__general-img" src="image/contacts/contacts-teacher.png"
+                        alt="Анна Учитель Английского">
+                    <img class="teacher__arrow" src="image/decor/arr.svg" alt="Стрелка">
+                    <div class="teacher__desk">
+                        <span class="teacher__desk-title">Анна</span><br>
+                        <span class="teacher__desk-text">Специалист по обучению в великобритании</span>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="contacts__content-position">
+                        <div class="contacts__modal modal">
+                            <div class="modal__inner">
+                                <h3 class="modal__title">Связаться с нами</h3>
+                                <p class="modal__desk">
+                                    Оставьте свои данные и наш специалист обязательно свяжемся с Вами в течение дня
+                                </p>
+                                <form class="form">
+                                    <div class="form__element">
+                                        <input class="input input-1" placeholder="Ваше Имя" type="text">
+                                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.71289 0.000244141C3.82284 0.000244141 2.28516 1.53793 2.28516 3.42798C2.28516 5.31803 3.82284 6.85571 5.71289 6.85571C7.60294 6.85571 9.14062 5.31803 9.14062 3.42798C9.14062 1.53793 7.60294 0.000244141 5.71289 0.000244141Z"
+                                                fill="#BED8E8" />
+                                            <path
+                                                d="M9.97765 9.09504C9.03922 8.14218 7.79515 7.61743 6.47461 7.61743H4.95117C3.63066 7.61743 2.38657 8.14218 1.44813 9.09504C0.514287 10.0432 0 11.2948 0 12.6194C0 12.8297 0.170523 13.0002 0.380859 13.0002H11.0449C11.2553 13.0002 11.4258 12.8297 11.4258 12.6194C11.4258 11.2948 10.9115 10.0432 9.97765 9.09504Z"
+                                                fill="#BED8E8" />
+                                        </svg>
+                                    </div>
+                                    <div class="form__element">
+                                        <input class="input input-2" placeholder="Телефон" type="tel">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.382872 5.92304C0.135027 5.25357 -0.0444466 4.56986 0.00968037 3.84342C0.0438658 3.39616 0.211944 3.01442 0.539555 2.70106C0.895654 2.3649 1.23181 2.01165 1.58221 1.66979C2.03802 1.21969 2.61063 1.22253 3.06643 1.66979C3.34846 1.94613 3.62764 2.22816 3.90682 2.51019C4.17746 2.78082 4.45094 3.05146 4.72158 3.32494C5.19733 3.80639 5.20017 4.3676 4.72443 4.84619C4.38257 5.18805 4.04357 5.53275 3.69601 5.86891C3.60485 5.95722 3.59631 6.03129 3.64474 6.14239C3.87264 6.68936 4.2031 7.1765 4.57344 7.63231C5.31982 8.54962 6.16306 9.36437 7.16869 9.99396C7.3852 10.1278 7.62165 10.2276 7.8467 10.3501C7.9635 10.4127 8.04042 10.3928 8.13443 10.2959C8.47343 9.94553 8.82099 9.60082 9.16854 9.25612C9.62434 8.80601 10.1941 8.80316 10.6499 9.25612C11.2083 9.80878 11.7638 10.3643 12.3164 10.9227C12.7808 11.3899 12.778 11.9625 12.3108 12.4325C11.9945 12.7516 11.6612 13.0536 11.365 13.3869C10.9319 13.8712 10.385 14.0307 9.76393 13.9965C8.85802 13.9481 8.02332 13.6461 7.21712 13.2558C5.42808 12.3869 3.90113 11.1819 2.62202 9.66065C1.67622 8.53253 0.895654 7.30755 0.382872 5.92304ZM13.3648 6.9429C13.7314 6.9429 14.0319 6.6448 13.9973 6.27984C13.6829 2.96477 11.0357 0.317624 7.72064 0.00320793C7.35569 -0.0314056 7.05758 0.269095 7.05758 0.635684C7.05758 1.00227 7.3561 1.29535 7.72018 1.33815C10.3028 1.64179 12.3587 3.69765 12.6623 6.28031C12.7051 6.64439 12.9982 6.9429 13.3648 6.9429ZM10.1428 6.28383C10.2185 6.64253 10.5084 6.9429 10.875 6.9429C11.2416 6.9429 11.5439 6.64398 11.49 6.28138C11.2011 4.33964 9.66084 2.79937 7.7191 2.51052C7.3565 2.45659 7.05758 2.75894 7.05758 3.12553C7.05758 3.49211 7.35796 3.78198 7.71665 3.85766C8.30811 3.98246 8.85111 4.27523 9.28819 4.7123C9.72526 5.14938 10.018 5.69238 10.1428 6.28383Z"
+                                                fill="#BED8E8" />
+                                        </svg>
+                                    </div>
+                                    <div class="form__element">
+                                        <textarea class="textarea" placeholder="Дополнительные комментарии"></textarea>
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.00019 14.0005C10.8599 14.0005 14 10.8603 14 7.00049C14 3.14068 10.8599 0.000488281 7.00019 0.000488281C3.14044 0.000488281 0.000405625 3.14068 0.000405625 7.00049C0.000405625 8.69974 0.601922 10.3068 1.70429 11.5784L0.148823 13.1134C-0.166435 13.4245 0.0519509 13.9651 0.496836 13.9672C0.500262 13.9673 6.99679 14.0005 7.00019 14.0005V14.0005ZM4.02403 4.52305H10.0096C10.2851 4.52305 10.5084 4.74639 10.5084 5.02187C10.5084 5.29734 10.2851 5.52068 10.0096 5.52068H4.02403C3.74854 5.52068 3.52524 5.29734 3.52524 5.02187C3.52524 4.74639 3.74858 4.52305 4.02403 4.52305ZM4.02403 6.5183H10.0096C10.2851 6.5183 10.5084 6.74164 10.5084 7.01712C10.5084 7.29259 10.2851 7.51593 10.0096 7.51593H4.02403C3.74854 7.51593 3.52524 7.29259 3.52524 7.01712C3.52524 6.74164 3.74858 6.5183 4.02403 6.5183ZM3.52524 9.01237C3.52524 8.73689 3.74854 8.51355 4.02403 8.51355H10.0096C10.2851 8.51355 10.5084 8.73689 10.5084 9.01237C10.5084 9.28784 10.2851 9.51118 10.0096 9.51118H4.02403C3.74858 9.51118 3.52524 9.28784 3.52524 9.01237Z"
+                                                fill="#BED8E8" />
+                                        </svg>
+                                    </div>
+                                    <button class="modal__button-submit button" type="submit">
+                                        <span class="button__content">
+                                            <span class="button__circle button__circle-contacts">
+                                                <img src="image/icons/arrow-2.svg" alt="Иконка письмо">
+                                            </span>
+                                            <span class="button__circle-back"></span>
+                                            <span class="button-p">Отправить</span>
+                                        </span>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="border-img border-img-large"></div>
+                            <img class="contacts__pencil" src="image/contacts/pencil.png" alt="Карандаш">
+                        </div>
+                    </div>
+                    <img class="contacts__clouds-img" src="image/contacts/cont-clouds.png" alt="Облака">
+                </div>
+            </section>
+            <section class="main__addition addition" id="info">
+                <div class="container">
+                    <h2 class="addition__title title">Остались вопросы?</h2>
+                    <p class="addition__desk">Свяжитесь с нами и мы ответим на все ваши вопросы</p>
+                    <div class="addition__content">
+                        <div class="addition__inner">
+                            <img src="image/icons/tel-blue.svg" alt="Иконка телефона">
+                            <div>
+                                <span class="addition__content-title">Телефоны</span><br>
+                                <span class="addition__content-text">+998 (99) 878-63-99</span><br>
+                                <span class="addition__content-text">+998 (99) 878-63-99</span>
+                            </div>
+                            <img class="addition__inner-img-point" src="image/icons/point.svg" alt="Иконка указателя">
+                            <div>
+                                <span class="addition__content-title">Адрес</span><br>
+                                <span class="addition__content-text">г. Город, ул. Улица, 24 (Офис 24)</span>
+                            </div>
+                            <img src="image/icons/clock.svg" alt="Иконка часов">
+                            <div>
+                                <span class="addition__content-title">Время работы</span><br>
+                                <span class="addition__content-text">Пн-Пт 9:00 - 18:00</span>
+                            </div>
+                        </div>
+                        <div class="border-img border-img-large"></div>
+                        <div class="addition__button button">
+                            <a class="button__content modal__opened" href="#">
+                                <div class="button__circle">
+                                    <img src="image/icons/tel.svg" alt="Иконка телефон">
+                                </div>
+                                <div class="button__circle-back"></div>
+                                <span class="button-p">Связаться с нами</span>
+                            </a>
+                        </div>
+                    </div>
+                    <img class="addition__tree" src="image/decor/tree2.png" alt="Дерево">
+                    <img class="addition__bus" src="image/decor/bus.png" alt="Автобус">
+                    <img class="addition__clouds addition__top-clouds" src="image/decor/clouds.png" alt="Облака">
+                    <img class="addition__clouds addition__bot-clouds" src="image/decor/clouds.png" alt="Облака">
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logos logos__callan">
+                        <a href="#"><img src="image/footer/footer-logo1.svg" alt="Логотип"></a>
+                    </div>
+                    <div class="footer__logos logos__wide">
+                        <a href="#" class="logos-fix">
+                            <img class="wide__icon" src="image/footer/logo2-svg-icon.svg" alt="Логотип иконка">
+                            <img class="wide__text" src="image/footer/logo2-svg-text.svg" alt="Логотип текст">
+                            <div class="dop-logos-fix"></div>
+                        </a>
+                    </div>
+                    <nav class="footer__navigation navigation">
+                        <ul class="navigation__list footer-navigation__list">
+                            <li class="navigation__item footer-navigation__item--1">
+                                <a class="footer__link navigation__link" href="#about" data-translate="О нас">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="navigation__item footer-navigation__item--2">
+                                <a class="footer__link navigation__link" href="#universities"
+                                    data-translate="Университеты">
+                                    Университеты
+                                </a>
+                            </li>
+                            <li class="navigation__item footer-navigation__item--3">
+                                <a class="footer__link navigation__link" href="#testimonials" data-translate="Отзывы">
+                                    Отзывы
+                                </a>
+                            </li>
+                            <li class="navigation__item footer-navigation__item--4">
+                                <a class="footer__link navigation__link" href="#photos" data-translate="Фотографии">
+                                    Фотографии
+                                </a>
+                            </li>
+                            <li class="navigation__item footer-navigation__item--5">
+                                <a class="footer__link navigation__link" href="#anwsers"
+                                    data-translate="Ответы на вопросы">
+                                    Ответы на вопросы
+                                </a>
+                            </li>
+                            <li class="navigation__item footer-navigation__item--6">
+                                <a class="footer__link navigation__link" href="#form" data-translate="Оставить заявку">
+                                    Оставить заявку
+                                </a>
+                            </li>
+                            <li class="navigation__item footer-navigation__item--7">
+                                <a class="footer__link navigation__link" href="#info" data-translate="Контакты">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <address class="footer__socials socials">
+                        <a class="socials__link footer-socials__link--inst" href="#">
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14.6908 0H5.59936C2.51194 0 0.00012207 2.51194 0.00012207 5.59936V14.6908C0.00012207 17.7784 2.51194 20.2902 5.59936 20.2902H14.6908C17.7785 20.2902 20.2903 17.7782 20.2903 14.6908V5.59936C20.2904 2.51194 17.7785 0 14.6908 0ZM10.1451 4.91683C7.26222 4.91683 4.91686 7.26219 4.91686 10.1451C4.91686 13.0279 7.26222 15.3731 10.1451 15.3731C13.028 15.3731 15.3734 13.0279 15.3734 10.1451C15.3734 7.26219 13.028 4.91683 10.1451 4.91683ZM10.1451 13.5728C8.25499 13.5728 6.71711 12.0351 6.71711 10.145C6.71711 8.25472 8.25487 6.71695 10.1451 6.71695C12.0354 6.71695 13.5732 8.25472 13.5732 10.145C13.5732 12.0351 12.0353 13.5728 10.1451 13.5728ZM14.6601 3.77681C14.9051 3.53078 15.2458 3.39036 15.5926 3.39036C15.9407 3.39036 16.2815 3.53078 16.5264 3.77681C16.7724 4.02164 16.9128 4.36249 16.9128 4.71054C16.9128 5.05738 16.7724 5.39823 16.5264 5.64426C16.2803 5.8891 15.9407 6.03072 15.5926 6.03072C15.2458 6.03072 14.905 5.8891 14.6601 5.64426C14.4141 5.39823 14.2725 5.0575 14.2725 4.71054C14.2725 4.36249 14.414 4.02164 14.6601 3.77681Z"
+                                    fill="#52BFFF" />
+                            </svg>
+                        </a>
+                        <a class="socials__link footer-socials__link--fb" href="#">
+                            <svg width="12" height="23" viewBox="0 0 12 23" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.13721 4.71541C8.16807 4.68052 8.31236 4.56654 8.87902 4.56654L10.5974 4.56585C11.2018 4.56585 11.6933 4.07331 11.6933 3.46782V1.10252C11.6933 0.498069 11.2025 0.00552645 10.5992 0.00449022L8.83395 0C7.13071 0 6.11028 0.118984 5.0742 1.18403C4.04277 2.24424 3.49749 3.72428 3.49749 5.4639V7.66221H1.38636C0.781949 7.66221 0.290283 8.15476 0.290283 8.76024V11.376C0.290283 11.9814 0.781949 12.474 1.38636 12.474H3.49749V21.0944C3.49749 21.6998 3.98915 22.1924 4.59356 22.1924H6.92959C7.53401 22.1924 8.02567 21.6998 8.02567 21.0944V12.4742H10.6062C11.2106 12.4742 11.7021 11.9814 11.7021 11.3763L11.7035 8.76042C11.7035 8.36269 11.4875 7.99466 11.1396 7.80003C10.9784 7.70988 10.7909 7.66221 10.5974 7.66221H8.02567V5.38842C8.02567 4.93664 8.08635 4.77309 8.13721 4.71541Z"
+                                    fill="#52BFFF" />
+                            </svg>
+                        </a>
+                        <a class="socials__link footer-socials__link--tg" href="#">
+                            <svg width="25" height="22" viewBox="0 0 25 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.0934 14.2307C9.91111 14.4035 9.80055 14.6386 9.78368 14.8892L9.46822 19.5747C9.42934 20.1521 9.93934 20.6479 10.3579 20.2482C10.4226 20.1864 10.486 20.12 10.5516 20.0511L12.7031 17.8799C13.0586 17.5211 13.6257 17.4837 14.0252 17.7927L19.0737 21.6967C20.1279 22.3171 20.8706 21.9904 21.155 20.6726L24.9278 2.00428C24.9279 2.00379 24.9282 2.00335 24.9285 2.00299C24.9289 2.00263 24.9291 2.00216 24.9292 2.00168C25.2631 0.356646 24.3653 -0.28659 23.3384 0.117045L1.16075 9.0831C-0.352826 9.7035 -0.329909 10.5945 0.903454 10.9982L6.11372 12.7095C6.40406 12.8049 6.72207 12.7622 6.97704 12.5938L19.7435 4.15842C20.3633 3.72503 20.9268 3.96483 20.4633 4.39822L10.0934 14.2307Z"
+                                    fill="#52BFFF" />
+                            </svg>
+                        </a>
+                    </address>
+                    <ul class="footer__info info">
+                        <li class="info__tel">
+                            <ul class="info__tel__inner">
+                                <li class="tel__item">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.437568 6.76841C0.154317 6.00333 -0.0507961 5.22197 0.0110633 4.39178C0.0501324 3.88064 0.242222 3.44438 0.616634 3.08626C1.0236 2.7021 1.40778 2.29839 1.80824 1.90772C2.32916 1.39332 2.98357 1.39658 3.50449 1.90772C3.82681 2.22351 4.14588 2.54582 4.46494 2.86813C4.77424 3.17742 5.08679 3.48671 5.39609 3.79925C5.9398 4.34946 5.94306 4.99082 5.39934 5.53777C5.00865 5.92845 4.62122 6.32238 4.22402 6.70655C4.11983 6.80747 4.11006 6.89212 4.16541 7.01909C4.42587 7.64418 4.80354 8.20089 5.22679 8.7218C6.0798 9.77012 7.0435 10.7012 8.19279 11.4207C8.44022 11.5738 8.71045 11.6877 8.96766 11.8277C9.10114 11.8993 9.18905 11.8765 9.29649 11.7658C9.68392 11.3654 10.0811 10.9715 10.4783 10.5775C10.9993 10.0631 11.6504 10.0599 12.1713 10.5775C12.8095 11.2091 13.4443 11.844 14.0759 12.4821C14.6066 13.016 14.6034 13.6704 14.0694 14.2076C13.708 14.5722 13.3271 14.9173 12.9885 15.2982C12.4936 15.8517 11.8685 16.034 11.1588 15.9949C10.1235 15.9396 9.16951 15.5945 8.24813 15.1485C6.20352 14.1555 4.45843 12.7783 2.99659 11.0398C1.91568 9.75059 1.0236 8.35065 0.437568 6.76841ZM15.2741 7.93393C15.693 7.93393 16.0364 7.59325 15.9969 7.17617C15.6376 3.38764 12.6123 0.362429 8.82359 0.00310807C8.40651 -0.036449 8.06581 0.306969 8.06581 0.725914C8.06581 1.14486 8.40697 1.47979 8.82306 1.52871C11.7747 1.87572 14.1242 4.22519 14.4712 7.1767C14.5202 7.59278 14.8551 7.93393 15.2741 7.93393ZM11.5918 7.18073C11.6783 7.59065 12.0096 7.93393 12.4285 7.93393C12.8475 7.93393 13.193 7.59232 13.1314 7.17793C12.8013 4.95888 11.041 3.19861 8.82183 2.86852C8.40743 2.80688 8.06581 3.15241 8.06581 3.57136C8.06581 3.9903 8.4091 4.32156 8.81903 4.40806C9.49498 4.55067 10.1156 4.88526 10.6151 5.38475C11.1146 5.88425 11.4492 6.50481 11.5918 7.18073Z"
+                                            fill="#52BFFF" />
+                                    </svg>
+                                </li>
+                                <li class="tel__item">
+                                    <a class="tel__link" href="tel:+79998786399">
+                                        +7 (999) 878-63-99
+                                    </a>
+                                </li>
+                                <li class="tel__item">
+                                    <a class="tel__link" href="tel:+79065505555">
+                                        +7 (906) 550-55-55
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="info__work-time">
+                            <img class="info__img" src="image/icons/clock.svg" alt="Часы">
+                            <p>Пн-Пт 9:00 - 18:00</p>
+                        </li>
+                        <li class="info__town">
+                            <img class="info__img" src="image/icons/point.svg" alt="Точка на карте">
+                            <p>г. Город
+                                <span>
+                                    ул. Улица, 24 (Офис 24)
+                                </span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__border-img border-img"></div>
+        </footer>
+    </div>
+    <div class="modal__position">
+        <div class="modal">
+            <div class="modal__inner">
+                <h3 class="modal__title">Связаться с нами</h3>
+                <p class="modal__desk">
+                    Оставьте свои данные и наш специалист обязательно свяжемся с Вами в течение дня
+                </p>
+                <form class="form">
+                    <div class="form__element">
+                        <input class="input input-1" placeholder="Ваше Имя" type="text">
+                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.71289 0.000244141C3.82284 0.000244141 2.28516 1.53793 2.28516 3.42798C2.28516 5.31803 3.82284 6.85571 5.71289 6.85571C7.60294 6.85571 9.14062 5.31803 9.14062 3.42798C9.14062 1.53793 7.60294 0.000244141 5.71289 0.000244141Z"
+                                fill="#BED8E8" />
+                            <path
+                                d="M9.97765 9.09504C9.03922 8.14218 7.79515 7.61743 6.47461 7.61743H4.95117C3.63066 7.61743 2.38657 8.14218 1.44813 9.09504C0.514287 10.0432 0 11.2948 0 12.6194C0 12.8297 0.170523 13.0002 0.380859 13.0002H11.0449C11.2553 13.0002 11.4258 12.8297 11.4258 12.6194C11.4258 11.2948 10.9115 10.0432 9.97765 9.09504Z"
+                                fill="#BED8E8" />
+                        </svg>
+                    </div>
+                    <div class="form__element">
+                        <input class="input input-2" placeholder="Телефон" type="tel">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.382872 5.92304C0.135027 5.25357 -0.0444466 4.56986 0.00968037 3.84342C0.0438658 3.39616 0.211944 3.01442 0.539555 2.70106C0.895654 2.3649 1.23181 2.01165 1.58221 1.66979C2.03802 1.21969 2.61063 1.22253 3.06643 1.66979C3.34846 1.94613 3.62764 2.22816 3.90682 2.51019C4.17746 2.78082 4.45094 3.05146 4.72158 3.32494C5.19733 3.80639 5.20017 4.3676 4.72443 4.84619C4.38257 5.18805 4.04357 5.53275 3.69601 5.86891C3.60485 5.95722 3.59631 6.03129 3.64474 6.14239C3.87264 6.68936 4.2031 7.1765 4.57344 7.63231C5.31982 8.54962 6.16306 9.36437 7.16869 9.99396C7.3852 10.1278 7.62165 10.2276 7.8467 10.3501C7.9635 10.4127 8.04042 10.3928 8.13443 10.2959C8.47343 9.94553 8.82099 9.60082 9.16854 9.25612C9.62434 8.80601 10.1941 8.80316 10.6499 9.25612C11.2083 9.80878 11.7638 10.3643 12.3164 10.9227C12.7808 11.3899 12.778 11.9625 12.3108 12.4325C11.9945 12.7516 11.6612 13.0536 11.365 13.3869C10.9319 13.8712 10.385 14.0307 9.76393 13.9965C8.85802 13.9481 8.02332 13.6461 7.21712 13.2558C5.42808 12.3869 3.90113 11.1819 2.62202 9.66065C1.67622 8.53253 0.895654 7.30755 0.382872 5.92304ZM13.3648 6.9429C13.7314 6.9429 14.0319 6.6448 13.9973 6.27984C13.6829 2.96477 11.0357 0.317624 7.72064 0.00320793C7.35569 -0.0314056 7.05758 0.269095 7.05758 0.635684C7.05758 1.00227 7.3561 1.29535 7.72018 1.33815C10.3028 1.64179 12.3587 3.69765 12.6623 6.28031C12.7051 6.64439 12.9982 6.9429 13.3648 6.9429ZM10.1428 6.28383C10.2185 6.64253 10.5084 6.9429 10.875 6.9429C11.2416 6.9429 11.5439 6.64398 11.49 6.28138C11.2011 4.33964 9.66084 2.79937 7.7191 2.51052C7.3565 2.45659 7.05758 2.75894 7.05758 3.12553C7.05758 3.49211 7.35796 3.78198 7.71665 3.85766C8.30811 3.98246 8.85111 4.27523 9.28819 4.7123C9.72526 5.14938 10.018 5.69238 10.1428 6.28383Z"
+                                fill="#BED8E8" />
+                        </svg>
+                    </div>
+                    <div class="form__element">
+                        <textarea class="textarea" placeholder="Дополнительные комментарии"></textarea>
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.00019 14.0005C10.8599 14.0005 14 10.8603 14 7.00049C14 3.14068 10.8599 0.000488281 7.00019 0.000488281C3.14044 0.000488281 0.000405625 3.14068 0.000405625 7.00049C0.000405625 8.69974 0.601922 10.3068 1.70429 11.5784L0.148823 13.1134C-0.166435 13.4245 0.0519509 13.9651 0.496836 13.9672C0.500262 13.9673 6.99679 14.0005 7.00019 14.0005V14.0005ZM4.02403 4.52305H10.0096C10.2851 4.52305 10.5084 4.74639 10.5084 5.02187C10.5084 5.29734 10.2851 5.52068 10.0096 5.52068H4.02403C3.74854 5.52068 3.52524 5.29734 3.52524 5.02187C3.52524 4.74639 3.74858 4.52305 4.02403 4.52305ZM4.02403 6.5183H10.0096C10.2851 6.5183 10.5084 6.74164 10.5084 7.01712C10.5084 7.29259 10.2851 7.51593 10.0096 7.51593H4.02403C3.74854 7.51593 3.52524 7.29259 3.52524 7.01712C3.52524 6.74164 3.74858 6.5183 4.02403 6.5183ZM3.52524 9.01237C3.52524 8.73689 3.74854 8.51355 4.02403 8.51355H10.0096C10.2851 8.51355 10.5084 8.73689 10.5084 9.01237C10.5084 9.28784 10.2851 9.51118 10.0096 9.51118H4.02403C3.74858 9.51118 3.52524 9.28784 3.52524 9.01237Z"
+                                fill="#BED8E8" />
+                        </svg>
+                    </div>
+                    <button class="modal__button-submit button modal__closed" type="submit">
+                        <span class="button__content">
+                            <span class="button__circle button__circle-contacts">
+                                <img src="image/icons/arrow-2.svg" alt="Иконка письмо">
+                            </span>
+                            <span class="button__circle-back"></span>
+                            <span class="button-p">Отправить</span>
+                        </span>
+                    </button>
+                </form>
+            </div>
+            <div class="border-img border-img-large"></div>
+            <a class="modal__button-closed modal__closed" href="#">
+                <div class="circle__button">
+                    <div class="circle--focus">
+                        <div class="circle--1"></div>
+                        <div class="circle--2">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.46448 13.5358L13.0711 2.9292M13.0711 13.5358L2.46448 2.9292" stroke="white"
+                                    stroke-width="3" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="burger modal__burger modal__closed" href="">
+                <img class="burger-icon-top" src="image/icons/burger/burger-bot.svg" alt="Бургер линия">
+                <img class="burger-icon-cntr" src="image/icons/burger/burger-bot.svg" alt="Бургер линия">
+                <img class="burger-icon-bot" src="image/icons/burger/burger-bot.svg" alt="Бургер линия">
+            </a>
+        </div>
+    </div>
+    <script src="js/lang.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
