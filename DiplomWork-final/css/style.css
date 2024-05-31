@@ -499,10 +499,6 @@ html {
         width: auto;
     }
 
-    .hero__info {
-        bottom: -10%;
-    }
-
     .header__slide-bg {
         min-height: 770px;
         object-position: 100%;
@@ -619,10 +615,6 @@ html {
 
     .header__slide-box {
         right: 7.5%;
-    }
-
-    .hero__info {
-        bottom: -20%;
     }
 
     .about__tree {
