@@ -89,9 +89,9 @@ new Swiper('.header__slider', {
     loop: true,
     speed: 7000,
 
-    // autoplay: {
-    //     delay: 3000,
-    // },
+    autoplay: {
+        delay: 3000,
+    },
 
     pagination: {
         el: '.header__pagination',
